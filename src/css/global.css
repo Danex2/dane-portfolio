@@ -131,6 +131,7 @@ p {
 
 .about > p {
   text-align: justify;
+  line-height: 2;
 }
 
 .skills > p {
