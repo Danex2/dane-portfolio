@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Links() {
   return (
-    <ul class="links">
+    <ul className="links">
       <li>
         <Link to="/">About</Link>
       </li>
@@ -12,6 +12,15 @@ function Links() {
       </li>
       <li>
         <Link to="/projects">Projects</Link>
+      </li>
+      <li>
+        <a
+          href="https://dane-blog.netlify.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog
+        </a>
       </li>
     </ul>
   );

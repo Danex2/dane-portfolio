@@ -7,7 +7,7 @@ function Projects() {
       <h1>Projects</h1>
       <div className="projects-container">
         <div className="project-item">
-          <img src={TwitchyIMG} />
+          <img src={TwitchyIMG} alt="Twitchy app react project" />
           <h3 className="project-title">Twitchy</h3>
           <p className="project-desc">
             I'm always looking for new twitch streamers to watch so I made an

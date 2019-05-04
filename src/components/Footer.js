@@ -10,7 +10,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <i class="fab fa-twitter" />
+            <i className="fab fa-twitter" />
             @hybridearth
           </a>
         </li>
@@ -20,7 +20,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <i class="fab fa-github" />
+            <i className="fab fa-github" />
             Danex2
           </a>
         </li>
@@ -30,7 +30,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <i class="fas fa-envelope" />
+            <i className="fas fa-envelope" />
             Email me!
           </a>
         </li>
