@@ -38,7 +38,7 @@ function Projects() {
         </div>
         <div className="project-item">
           <img src={WCIMG} alt="Warcraft guilds react project" />
-          <h3 className="project-title">Twitchy</h3>
+          <h3 className="project-title">Warcraft Guilds</h3>
           <p className="project-desc">
             This is a website for people looking for a guild in the game World of Warcraft. I always found that the forums weren't that great for looking for guilds so
             I made this to make it easier to quickly find a guild to join.
