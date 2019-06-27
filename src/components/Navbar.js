@@ -1,17 +1,25 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
-    return (
-        <nav class="nav-container">
-            <ul class="nav">
-                <li class="nav-item"><Link to="/">Home</Link></li>
-                <li class="nav-item"><Link to="/projects">Projects</Link></li>
-                <li class="nav-item"><Link to="/skills">Skills</Link></li>
-                <li class="nav-item"><a href="https://dane-blog.netlify.com">Blog</a></li>
-            </ul>
-        </nav>
-    )
+  return (
+    <nav className='nav-container'>
+      <ul className='nav'>
+        <li className='nav-item'>
+          <Link to='/'>Home</Link>
+        </li>
+        <li className='nav-item'>
+          <Link to='/projects'>Projects</Link>
+        </li>
+        <li className='nav-item'>
+          <Link to='/skills'>Skills</Link>
+        </li>
+        <li className='nav-item'>
+          <a href='https://dane-blog.netlify.com'>Blog</a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
