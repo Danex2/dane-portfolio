@@ -13,7 +13,7 @@ class App extends Component {
         <nav class="navbar">
           <ul class="nav__links">
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
@@ -27,7 +27,7 @@ class App extends Component {
           </ul>
         </nav>
         <Switch>
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
