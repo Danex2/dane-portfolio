@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Lekton&display=swap');
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color1: #070600;
+  --color2: #fffcf2;
+  --fs-title-normal: 2rem;
+  --fs-secondary-normal: 1.5rem;
+  --fs-text-normal: 1.1rem;
+  --hover: #a2d3c2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lekton', sans-serif;
+}
+
+.main,
+.about,
+.projects,
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  flex-direction: column;
+}
+
+.main {
+  background-color: var(--color1);
+}
+
+.main ul,
+.contact ul,
+.about ul {
+  display: flex;
+}
+
+.main p,
+.main ul {
+  color: var(--color2);
+}
+
+.main p:nth-child(1) {
+  font-size: var(--fs-title-normal);
+}
+
+.main p:nth-child(2) {
+  margin: 20px 0px 0px 0px;
+  font-size: var(--fs-secondary-normal);
+}
+
+.main ul li,
+.contact ul li {
+  font-size: var(--fs-text-normal);
+  margin: 20px 5px 0px 0px;
+  text-align: center;
+}
+
+.main ul li::before {
+  content: 'x';
+}
+
+ul li {
+  list-style: none;
+}
+
+.contact ul li:hover {
+  color: var(--hover);
+}
+
+.main ul li:hover {
+  cursor: pointer;
+  color: var(--hover);
+}
+
+.about {
+  background-color: var(--color2);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.about p {
+  text-align: justify;
+  width: 80%;
+  font-size: var(--fs-text-normal);
+}
+
+.about ul {
+  height: 25%;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.projects {
+  background-color: var(--color1);
+  color: var(--color2);
+}
+
+.contact {
+  background-color: var(--color2);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.contact p:nth-child(1) {
+  font-size: var(--fs-secondary-normal);
+}
+
+i {
+  font-size: 2em;
+  padding: 20px;
+}
+
+footer {
+  height: 5vh;
+  background-color: var(--color1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer a {
+  font-size: 0.75em;
+  color: var(--color2);
+  padding: 10px;
+}
+
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: var(--color2);
+}
+
+a:hover {
+  color: var(--hover);
+}
+
+body > main > section.contact > ul > li > a > i:hover {
+  color: var(--hover);
+}
+
+#toTop {
+  position: fixed;
+  bottom: 40px;
+  right: 3%;
+  color: var(--hover);
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  height: 10px;
+  position: absolute;
+}
+
+.line {
+  border: 2px;
+  width: 100%;
+  background-color: var(--color2);
+}
+
+.contact ul li i {
+  color: var(--color1);
+}
+
+.main-carousel {
+  width: 50%;
+  height: 70%;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+.project-item {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.projects .main-carousel .project-item h4,
+.project-item-libs,
+.links {
+  text-align: center;
+}
+
+#projects > div > div {
+  height: 100% !important;
+}
+.project-item-libs,
+.links {
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+
+.flickity-button {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 13px;
+  }
+
+  .main-carousel {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 30px;
+  }
+
+  .main-carousel {
+    width: 90%;
+  }
+}

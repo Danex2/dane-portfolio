@@ -1,41 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="theme-color" content="#000000" />
-  <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-  <title>Dane Miller | Frontend / UI Developer</title>
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://kit.fontawesome.com/b94103c2f0.js"></script>
+    <title>dane miller - frontend developer</title>
+  </head>
+  <body>
+    <i class="fas fa-arrow-up" id="toTop"></i>
+    <div class="mobile-nav">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <main>
+      <section class="main">
+        <p>dane miller</p>
+        <p>frontend developer</p>
+        <ul>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </section>
+      <section class="about" id="about">
+        <p>
+          hi, i’m dane. a frontend developer based in toronto, on. i enjoy
+          programming and making anything from small but useful applications to
+          large and complex web applications. my main language of choice is
+          javascript but i dabble in other languages such as python and golang.
+          when i’m not banging my head against my desk because of a misspelled
+          variable i also enjoy skateboarding, photography, music and video
+          games. below are a list of languages and technologies that i am
+          familiar with.
+        </p>
+        <ul>
+          <li>
+            <i class="devicon-bootstrap-plain colored"></i>
+          </li>
+          <li>
+            <i class="devicon-css3-plain colored"></i>
+          </li>
+          <li>
+            <i class="devicon-docker-plain colored"></i>
+          </li>
+          <li>
+            <i class="devicon-git-plain colored"></i>
+          </li>
+          <li>
+            <i class="devicon-html5-plain colored"></i>
+          </li>
+          <li>
+            <i class="devicon-javascript-plain colored"></i>
+          </li>
+          <li>
+            <i class="devicon-mongodb-plain colored"></i>
+          </li>
+          <li>
+            <i class="devicon-nodejs-plain colored"></i>
+          </li>
+          <li>
+            <i class="devicon-react-original colored"></i>
+          </li>
+          <li>
+            <i class="devicon-webpack-plain colored"></i>
+          </li>
+        </ul>
+      </section>
+      <section class="projects" id="projects">
+        <div class="main-carousel">
+          <div class="project-item">
+            <h4>Coin Info</h4>
+            <p class="project-item-libs">react x styled-components x chartjs</p>
+            <p class="links">
+              <a href="https://github.com/danex2/coininfo" target="_blank"
+                >github</a
+              >
+              /
+              <a href="https://coininfo.netlify.com" target="_blank">live</a>
+            </p>
+            <img
+              src="https://2s9e3bif52.execute-api.eu-central-1.amazonaws.com/production/screenshot?url=coininfo.netlify.com"
+              alt=""
+            />
+          </div>
+          <div class="project-item">
+            <h4>Coin Info</h4>
+            <p class="project-item-libs">react x styled-components x chartjs</p>
+            <p class="links">
+              <a href="https://github.com/danex2/coininfo" target="_blank"
+                >github</a
+              >
+              /
+              <a href="https://coininfo.netlify.com" target="_blank">live</a>
+            </p>
+            <img
+              src="https://2s9e3bif52.execute-api.eu-central-1.amazonaws.com/production/screenshot?url=coininfo.netlify.com"
+              alt=""
+            />
+          </div>
+          <div class="project-item">
+            <h4>Coin Info</h4>
+            <p class="project-item-libs">react x styled-components x chartjs</p>
+            <p class="links">
+              <a href="https://github.com/danex2/coininfo" target="_blank"
+                >github</a
+              >
+              /
+              <a href="https://coininfo.netlify.com" target="_blank">live</a>
+            </p>
+            <img
+              src="https://2s9e3bif52.execute-api.eu-central-1.amazonaws.com/production/screenshot?url=coininfo.netlify.com"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <p>
+          you can find me on
+        </p>
+        <ul>
+          <li>
+            <a href="https://twitter.com/hybridearth"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/danex2"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://codepen.io/danex2"
+              ><i class="fab fa-codepen"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <footer id="contact">
+        <a
+          href="mailto:khadane.miller@gmail.com?subject=Hi! I'd like to chat!"
+          target="_blank"
+          >email</a
+        >
+        <a
+          href="https://drive.google.com/open?id=1RL-yhBytgVjG90zyEIAFK7O9nh8uEdmr"
+          target="_blank"
+          >resume</a
+        >
+      </footer>
+    </main>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="../main.js"></script>
+  </body>
 </html>
